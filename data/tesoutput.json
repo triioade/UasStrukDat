@@ -1,0 +1,180 @@
+{
+    "books": [
+        {
+            "id_buku": 42,
+            "judul": "Algoritma dan Struktur Data",
+            "penulis": "Rinaldi Munir",
+            "kategori": "Pemrograman",
+            "tahun": 2020,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 17,
+            "judul": "Python untuk Pemula",
+            "penulis": "Cory Althoff",
+            "kategori": "Pemrograman",
+            "tahun": 2019,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 63,
+            "judul": "Clean Code",
+            "penulis": "Robert Martin",
+            "kategori": "Teknologi",
+            "tahun": 2018,
+            "status": "Dipinjam"
+        },
+        {
+            "id_buku": 8,
+            "judul": "Database Management Systems",
+            "penulis": "Raghu Ramakrishnan",
+            "kategori": "Database",
+            "tahun": 2017,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 51,
+            "judul": "Web Development",
+            "penulis": "Andrew Smith",
+            "kategori": "Web",
+            "tahun": 2021,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 29,
+            "judul": "Pemrograman C++ Modern",
+            "penulis": "Bjarne Stroustrup",
+            "kategori": "Pemrograman",
+            "tahun": 2022,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 74,
+            "judul": "Dasar Sistem Operasi",
+            "penulis": "Abraham Silberschatz",
+            "kategori": "Sistem",
+            "tahun": 2019,
+            "status": "Dipinjam"
+        },
+        {
+            "id_buku": 36,
+            "judul": "Computer Networking",
+            "penulis": "Andrew Tanenbaum",
+            "kategori": "Jaringan",
+            "tahun": 2020,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 12,
+            "judul": "Artificial Intelligence Dasar",
+            "penulis": "Stuart Russell",
+            "kategori": "AI",
+            "tahun": 2021,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 90,
+            "judul": "Machine Learning Fundamental",
+            "penulis": "Tom Mitchell",
+            "kategori": "AI",
+            "tahun": 2022,
+            "status": "Dipinjam"
+        },
+        {
+            "id_buku": 24,
+            "judul": "Java Programming",
+            "penulis": "Herbert Schildt",
+            "kategori": "Pemrograman",
+            "tahun": 2018,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 67,
+            "judul": "Mobile Application Development",
+            "penulis": "John Horton",
+            "kategori": "Mobile",
+            "tahun": 2023,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 45,
+            "judul": "Software Engineering",
+            "penulis": "Ian Sommerville",
+            "kategori": "Software",
+            "tahun": 2020,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 15,
+            "judul": "UML dan Analisis Sistem",
+            "penulis": "Adi Nugroho",
+            "kategori": "Software",
+            "tahun": 2019,
+            "status": "Dipinjam"
+        },
+        {
+            "id_buku": 82,
+            "judul": "Cloud Computing",
+            "penulis": "Thomas Erl",
+            "kategori": "Cloud",
+            "tahun": 2021,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 57,
+            "judul": "Cyber Security Dasar",
+            "penulis": "William Stallings",
+            "kategori": "Keamanan",
+            "tahun": 2022,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 33,
+            "judul": "Cryptography Engineering",
+            "penulis": "Niels Ferguson",
+            "kategori": "Keamanan",
+            "tahun": 2018,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 96,
+            "judul": "Big Data Analytics",
+            "penulis": "Nathan Marz",
+            "kategori": "Data",
+            "tahun": 2020,
+            "status": "Dipinjam"
+        },
+        {
+            "id_buku": 21,
+            "judul": "Data Mining Konsep",
+            "penulis": "Jiawei Han",
+            "kategori": "Data",
+            "tahun": 2019,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 71,
+            "judul": "Statistika Komputer",
+            "penulis": "Sudjana",
+            "kategori": "Matematika",
+            "tahun": 2017,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 1000,
+            "judul": "Cloud c++",
+            "penulis": "ade",
+            "kategori": "web",
+            "tahun": 2020,
+            "status": "Tersedia"
+        },
+        {
+            "id_buku": 1,
+            "judul": "tes",
+            "penulis": "tes",
+            "kategori": "tes",
+            "tahun": 2020,
+            "status": "Tersedia"
+        }
+    ]
+}

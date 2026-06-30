@@ -5,6 +5,8 @@ Sistem manajemen perpustakaan digital yang dibangun dengan Python menggunakan be
 
 ##  Cara Menggunakan
 
+## Video Dokumentasi
+https://youtu.be/PLdEEXf4HMg
 
 ## Persyaratan
 
@@ -35,7 +37,7 @@ python main.py
 
 ### Langkah Menjalankan Opsi 2
 
-* File project sudah didownload https://drive.google.com/.......
+* File project sudah didownload https://drive.google.com/drive/folders/1xPjd-GaiM5mPMaCCmHufC5DuZzq1PY9R
 
 1. Ekstrak file ZIP project ke folder yang diinginkan.
 2. Buka folder hasil ekstraksi.
