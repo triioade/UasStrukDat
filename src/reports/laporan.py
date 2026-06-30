@@ -74,7 +74,7 @@ class LaporanSistem:
 
         print("\n")
         print("===== BUKU FAVORIT =====")
-        self.favorit.tampil_favorit()
+        self.favorit.tampilkan()
 
         # Rekomendasi
 

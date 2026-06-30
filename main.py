@@ -59,6 +59,48 @@ def ambil_semua_buku():
 
     return data
 
+# ==========================================
+# LOAD DATA AWAL
+# ==========================================
+
+def load_data_awal():
+
+    """
+    Memuat buku dari file JSON
+    saat program pertama kali dijalankan.
+    """
+
+    try:
+
+        data = json_manager.load_json(
+            "books.json",
+            []
+        )
+
+
+        for buku in data:
+
+            daftar_buku.tambah_buku(
+                buku
+            )
+
+
+            tree.insert(
+                buku
+            )
+
+
+        print(
+            f"{len(data)} buku berhasil dimuat."
+        )
+
+
+    except Exception as e:
+
+        print(
+            "Data awal belum tersedia.",
+            e
+        )
 
 # ==========================================
 # MENU KELOLA BUKU
@@ -72,6 +114,10 @@ def menu_buku():
         print("1. Tambah Buku")
         print("2. Hapus Buku")
         print("3. Tampilkan Buku")
+        print("4. Tambah Buku Favorit")
+        print("5. Lihat Buku Favorit")
+        print("6. Buat Rekomendasi Buku")
+        print("7. Lihat Rekomendasi Buku")
         print("0. Kembali")
 
         pilihan = input("Pilih : ")
@@ -97,14 +143,54 @@ def menu_buku():
         elif pilihan == "3":
             daftar_buku.tampilkan_buku()
 
+        # TAMBAH FAVORIT
+
+        elif pilihan == "4":
+            id_buku = int(
+                input("ID Buku : ")
+            )
+            buku = daftar_buku.cari_buku(id_buku)
+            if buku:
+                favorit.tambah_favorit(buku)
+                riwayat.tambah_riwayat(
+                    f"Menambahkan {buku.judul} ke favorit"
+                )
+            else:
+                print(
+                    "Buku tidak ditemukan."
+                )
+        # LIHAT FAVORIT
+
+        elif pilihan == "5":
+            favorit.tampilkan()
+
+        # BUAT REKOMENDASI
+
+        elif pilihan == "6":
+            id_buku = int(
+                input("ID Buku Referensi : ")
+            )
+            buku = daftar_buku.cari_buku(id_buku)
+            if buku:
+                rekomendasi.buat_rekomendasi(
+                    buku,
+                    daftar_buku
+                )
+                print(
+                    "Rekomendasi berhasil dibuat."
+                )
+            else:
+                print(
+                    "Buku tidak ditemukan."
+                )
+        # LIHAT REKOMENDASI
+        elif pilihan == "7":
+
+            rekomendasi.tampilkan()
+
         elif pilihan == "0":
             break
-
-
-# ==========================================
 # MENU PEMINJAMAN
-# ==========================================
-
 
 def menu_peminjaman():
 
@@ -347,6 +433,7 @@ def menu_tambahan():
 # PROGRAM UTAMA
 # ==========================================
 
+load_data_awal()
 
 def main():
 

@@ -1,0 +1,12 @@
+{
+  "books": [
+    {
+      "id_buku": 1,
+      "judul": "tes",
+      "penulis": "tes",
+      "kategori": "tes",
+      "tahun": 2020,
+      "status": "Tersedia"
+    }
+    ]
+}

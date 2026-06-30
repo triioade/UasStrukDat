@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "id_buku": 1,
+      "id_buku": 42,
       "judul": "Algoritma dan Struktur Data",
       "penulis": "Rinaldi Munir",
       "kategori": "Pemrograman",
@@ -9,7 +9,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 2,
+      "id_buku": 17,
       "judul": "Python untuk Pemula",
       "penulis": "Cory Althoff",
       "kategori": "Pemrograman",
@@ -17,7 +17,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 3,
+      "id_buku": 63,
       "judul": "Clean Code",
       "penulis": "Robert Martin",
       "kategori": "Teknologi",
@@ -25,7 +25,7 @@
       "status": "Dipinjam"
     },
     {
-      "id_buku": 4,
+      "id_buku": 8,
       "judul": "Database Management Systems",
       "penulis": "Raghu Ramakrishnan",
       "kategori": "Database",
@@ -33,7 +33,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 5,
+      "id_buku": 51,
       "judul": "Web Development",
       "penulis": "Andrew Smith",
       "kategori": "Web",
@@ -41,7 +41,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 6,
+      "id_buku": 29,
       "judul": "Pemrograman C++ Modern",
       "penulis": "Bjarne Stroustrup",
       "kategori": "Pemrograman",
@@ -49,7 +49,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 7,
+      "id_buku": 74,
       "judul": "Dasar Sistem Operasi",
       "penulis": "Abraham Silberschatz",
       "kategori": "Sistem",
@@ -57,7 +57,7 @@
       "status": "Dipinjam"
     },
     {
-      "id_buku": 8,
+      "id_buku": 36,
       "judul": "Computer Networking",
       "penulis": "Andrew Tanenbaum",
       "kategori": "Jaringan",
@@ -65,7 +65,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 9,
+      "id_buku": 12,
       "judul": "Artificial Intelligence Dasar",
       "penulis": "Stuart Russell",
       "kategori": "AI",
@@ -73,7 +73,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 10,
+      "id_buku": 90,
       "judul": "Machine Learning Fundamental",
       "penulis": "Tom Mitchell",
       "kategori": "AI",
@@ -81,7 +81,7 @@
       "status": "Dipinjam"
     },
     {
-      "id_buku": 11,
+      "id_buku": 24,
       "judul": "Java Programming",
       "penulis": "Herbert Schildt",
       "kategori": "Pemrograman",
@@ -89,7 +89,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 12,
+      "id_buku": 67,
       "judul": "Mobile Application Development",
       "penulis": "John Horton",
       "kategori": "Mobile",
@@ -97,7 +97,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 13,
+      "id_buku": 45,
       "judul": "Software Engineering",
       "penulis": "Ian Sommerville",
       "kategori": "Software",
@@ -105,7 +105,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 14,
+      "id_buku": 15,
       "judul": "UML dan Analisis Sistem",
       "penulis": "Adi Nugroho",
       "kategori": "Software",
@@ -113,7 +113,7 @@
       "status": "Dipinjam"
     },
     {
-      "id_buku": 15,
+      "id_buku": 82,
       "judul": "Cloud Computing",
       "penulis": "Thomas Erl",
       "kategori": "Cloud",
@@ -121,7 +121,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 16,
+      "id_buku": 57,
       "judul": "Cyber Security Dasar",
       "penulis": "William Stallings",
       "kategori": "Keamanan",
@@ -129,7 +129,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 17,
+      "id_buku": 33,
       "judul": "Cryptography Engineering",
       "penulis": "Niels Ferguson",
       "kategori": "Keamanan",
@@ -137,7 +137,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 18,
+      "id_buku": 96,
       "judul": "Big Data Analytics",
       "penulis": "Nathan Marz",
       "kategori": "Data",
@@ -145,7 +145,7 @@
       "status": "Dipinjam"
     },
     {
-      "id_buku": 19,
+      "id_buku": 21,
       "judul": "Data Mining Konsep",
       "penulis": "Jiawei Han",
       "kategori": "Data",
@@ -153,7 +153,7 @@
       "status": "Tersedia"
     },
     {
-      "id_buku": 20,
+      "id_buku": 71,
       "judul": "Statistika Komputer",
       "penulis": "Sudjana",
       "kategori": "Matematika",
